@@ -27,7 +27,8 @@ public class hra extends javax.swing.JPanel {
         int randomcislo=t.nextInt(slova.length);
         String slovicko = slova[randomcislo];
         String slovomez = "";
-
+        int gg = 0;
+        //nezapomen
         
     public hra() {
         if(dalsi == 1){
