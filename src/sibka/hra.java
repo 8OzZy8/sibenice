@@ -22,8 +22,6 @@ public class hra extends javax.swing.JPanel {
      * Creates new form hra
      */
     String tajenka = "";
-            //přidat ho
-            int blbec = 0;
         String[] slova={"generátor","malůvka","chaloupka","rozinka","mazání","štír","konektor","asfalt","naběračka","úsvit","brouček","pařát","převod","zámek","černoch","radiátor","důvěra","mrak","deprese","krumpáč","kabát","volnost","matka","šerednost","krb","malování","náskok","schodiště","striptér","artefakt","kominík","monopol","krocan","letadlo","plechovka","zákazník","beruška","jabloň","seznam","vážka","srub","bonbon","zelenooká","kasa","vládce","buzola","horda","letenka","klavíristka","sýr"};
         Random t=new Random();
         int randomcislo=t.nextInt(slova.length);
